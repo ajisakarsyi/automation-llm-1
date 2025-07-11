@@ -88,10 +88,10 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ### Running the Server
 
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --host localhost --port 8000 --reload
 ```
 
-### API Usage
+### API Usag
 
 #### `POST /translate-document/`
 
